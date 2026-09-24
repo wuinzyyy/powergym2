@@ -1,0 +1,109 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Верхній колонтитул (Шапка) */
+#header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Інтерактивне спискове меню */
+#nav ul {
+    list-style-type: none; /* Прибираємо маркер списку */
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    display: flex; /* Горизонтальне розміщення */
+    justify-content: center;
+}
+
+#nav li {
+    margin: 0;
+}
+
+#nav li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Зміна кольору фону при наведенні мишки */
+#nav li a:hover {
+    background-color: #e74c3c;
+}
+
+/* Зміна кольору фону при натисканні */
+#nav li a:active {
+    background-color: #c0392b;
+}
+
+/* Основний контейнер для блоків */
+#container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox макет */
+    gap: 20px;
+}
+
+/* Основний контент */
+#main-content {
+    flex: 3;
+}
+
+/* Бокова колонка */
+#sidebar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #e74c3c;
+    border-radius: 4px;
+}
+
+/* Таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+/* Нижній колонтитул (Підвал) */
+#footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
